@@ -17,6 +17,43 @@
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>3.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/commons-collections-3.0.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>com</groupId>
+			<artifactId>jasperreports</artifactId>
+			<version>6.1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/jasperreports-6.1.0.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>digester</groupId>
+			<artifactId>digester</artifactId>
+			<version>1.7</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/commons-digester-1.7.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>itext</groupId>
+			<artifactId>itext</artifactId>
+			<version>1.7</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/itext-2.1.7.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>utils</groupId>
+			<artifactId>utils</artifactId>
+			<version>1.9.4</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/commons-beanutils-1.9.4.jar</systemPath>
+		</dependency>
+
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
