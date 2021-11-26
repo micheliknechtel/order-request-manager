@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +24,7 @@
     </thead>
 </table>
 
-<a href="http://localhost:8080/admin/createOsNew/">New Order Request</a>
+<a href="http://ec2-3-137-215-86.us-east-2.compute.amazonaws.com:8080/admin/createOsNew/">New Order Request</a>
 </br>
 
 </body>
@@ -33,7 +34,7 @@ $(document).ready(function() {
   $('#example').DataTable({
     "Processing": true,
       "ajax": {
-    "url": "http://localhost:8080/admin/listOs",
+    "url": "http://ec2-3-137-215-86.us-east-2.compute.amazonaws.com:8080/admin/listOs",
     "dataSrc": ""
       },
       "columns": [

@@ -1,3 +1,4 @@
+
 package com.example.delta.controller;
 
 
@@ -22,10 +23,10 @@ public class OsController {
     @PostMapping( value = "/createOs",
             consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE,
             produces = MediaType.APPLICATION_JSON_VALUE)
-    public Os create(@ModelAttribute OsDto osDto) {
+    public ModelAndView create(@ModelAttribute OsDto osDto) {
         Os os = osDto.build(osDto);
-        return osService.create(os);
-    }
+osService.create(os); ModelAndView modelAndView = new ModelAndView("listOs"); 
+return modelAndView;}
 
     @RequestMapping(method = RequestMethod.GET, value = "/admin/listOs",
             produces = MediaType.APPLICATION_JSON_VALUE)

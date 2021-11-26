@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>New Order Request ${os.id}</h1>
-<form  action="../createOs" name="myForm" method="POST">
+<form  action="/createOs" name="myForm" method="POST">
 <table>
 
         <tr>

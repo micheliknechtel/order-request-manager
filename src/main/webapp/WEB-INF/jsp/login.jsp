@@ -22,7 +22,7 @@
     </tr>
 </table>
 </br>
-<a href="http://localhost:8080/createUser.html/">Create an account</a>
+<a href="http://ec2-3-137-215-86.us-east-2.compute.amazonaws.com:8080/createUser.html/">Create an account</a>
 </form>
 </body>
 </html>

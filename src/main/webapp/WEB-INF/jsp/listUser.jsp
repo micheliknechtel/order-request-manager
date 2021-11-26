@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,9 +22,9 @@
     </thead>
 </table>
 
-<a href="http:\\localhost:8080\createUser.html">Create New User</a>
+<a href="http://ec2-3-137-215-86.us-east-2.compute.amazonaws.com:8080/createUser.html">Create New User</a>
 </br>
-<a href="http:\\localhost:8080\">Login</a>
+<a href="http://ec2-3-137-215-86.us-east-2.compute.amazonaws.com:8080">Login</a>
 </body>
 
 <script type="text/javascript">
@@ -32,7 +32,7 @@ $(document).ready(function() {
   $('#example').DataTable({
     "Processing": true,
       "ajax": {
-    "url": "http://localhost:8080/list",
+    "url": "http://ec2-3-137-215-86.us-east-2.compute.amazonaws.com:8080/list",
     "dataSrc": ""
       },
       "columns": [

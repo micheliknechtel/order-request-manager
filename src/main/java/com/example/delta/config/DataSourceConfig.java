@@ -14,8 +14,8 @@ public class DataSourceConfig {
         return DataSourceBuilder.create()
                 .driverClassName("com.mysql.cj.jdbc.Driver")
                 .url("jdbc:mysql://localhost:3306/loja")
-                .username("root")
-                .password("123")
+                .username("user")
+                .password("P@ssW0rd")
                 .build();
     }
     @Bean
