@@ -108,13 +108,9 @@
                 <tr>
                     <td><input type="submit" value="Sign in" /></td>
                 </tr>
-                <form action="http://ec2-3-137-215-86.us-east-2.compute.amazonaws.com:8080/createUser.html/" method="GET">
-                <tr>
-                    <td><input type="Create an account" value="Create an account" /></td>
-                </tr>
-                </form>
-            </table>
 
+            </table>
+            <a href="http://localhost:8080/createUser.html/">Create an account</a>
         </form>
     </div>
     <hr />
