@@ -64,9 +64,7 @@ iv class="container theme-showcase" role="main">
 <hr />
 <div class="footer">
     <p>2021 Micheli Knechtel,&nbsp;Visits:&nbsp;<span id="visits">&nbsp;</span>,&nbsp;&nbsp;<span id="clock">&nbsp;</span></p>
-    <div title="The container ID is the ID of the container (or host) that is the helloworld application.">Container
-        ID: HOSTNAME
-    </div>
+
 </div>
 </div>
 
