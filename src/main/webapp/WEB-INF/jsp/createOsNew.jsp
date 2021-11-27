@@ -72,13 +72,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Docker Helloworld</a>
+            <a class="navbar-brand" href="#">Spring-boot Example</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="https://github.com/micheliknechtel">About</a></li>
-                <li><a href="https://www.linkedin.com/in/micheliknechtel/">Contact</a></li>
+                <li class="active"><a href="http://ec2-3-137-215-86.us-east-2.compute.amazonaws.com:8080/">Home</a></li>
+                <li><a href="https://github.com/micheliknechtel/order-request-manager">Git Repository</a></li>
+                <li><a href="https://www.linkedin.com/in/micheliknechtel/">Linkedin</a></li>
             </ul>
         </div>
         <!--/.nav-collapse -->
