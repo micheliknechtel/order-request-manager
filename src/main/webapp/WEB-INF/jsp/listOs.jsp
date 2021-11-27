@@ -43,7 +43,12 @@ $(document).ready(function() {
             $(nTd).html("<a href='/admin/details/"+oData.id+"'>"+oData.id+"</a>");
         }
     } ,
-    { "data": "client.name" },
+
+          { "data": "client.name" ,
+              "fnCreatedCell": function (nTd, sData, oData, iRow, iCol) {
+                  $(nTd).html("<a href='/geraRelatorio/?id="+oData.id+"'>"+oData.client.name+"</a>");
+              }
+          } ,
     {"data": "equipment.brand"}
 
 ]
