@@ -110,7 +110,7 @@
                 </tr>
 
             </table>
-            <a href="http://localhost:8080/createUser.html/">Create an account</a>
+            <a href="http://localhost:8080/createUser.html">Create an account</a>
         </form>
     </div>
     <hr />
